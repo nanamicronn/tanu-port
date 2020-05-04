@@ -1,0 +1,119 @@
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  font-family:　"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+}
+.header {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: calc(100% - 40px);
+  background-color: #d32d26;
+  color: #fefefe;
+  padding: 30px 20px 10px;
+}
+.header__text {
+  color: #fefefe;
+  font-size: 16px;
+}
+
+.header__btn--back {
+  position: absolute;
+  color: #fefefe;
+  font-size: 16px;
+  right: 14px;
+}
+
+.main {
+  height: 100%;
+  width: 100%;
+  background-color   : #ebe1bc;
+  background-image   : radial-gradient(#f4eccc 14%, transparent 18%),
+  radial-gradient(#f4eccc 14%, transparent 18%);
+  background-position: 0 0, 12px 12px;
+  background-size    : 24px 24px;
+  padding-top: 20px;
+}
+
+.main__title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main__title-img {
+  width: 30px;
+  height: auto;
+  margin-right: 6px;
+}
+
+.main__title-text {
+  width: 122px;
+  height: auto;
+}
+
+.main__contents {
+  background-color: #f4f1e4;
+  border-radius: 84px;
+  margin: 18px 28px;
+  padding: 30px 40px;
+}
+
+.main__contents-top {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  color: #ddd9ca;
+}
+
+.main__contents-top-name {
+  display: flex;
+  align-items: center;
+}
+
+.main__contents-top-icon {
+  width: 14px;
+  height: auto;
+  margin-right: 4px;
+}
+
+.main__contents-bottom {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 20px;
+}
+
+.main__contents-bottom-content {
+  width: 84px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 26px;
+}
+
+.main__contents-bottom-content--margin {
+  margin-right: calc(100% - 168px);
+}
+
+.main__contents-bottom-content-img {
+  width: 78px;
+  height: auto;
+  transition: all 0.1s;
+}
+
+.main__contents-bottom-content-img:active {
+  width: 70px;
+  height: auto;
+  margin: 4px;
+}
+
+.main__contents-bottom-content-text {
+  font-size: 12px;
+  color: #4a3a12;
+  font-weight: bold;
+  margin-top: 4px;
+}
+
