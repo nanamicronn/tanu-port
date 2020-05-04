@@ -101,13 +101,11 @@ body {
 .main__contents-bottom-content-img {
   width: 78px;
   height: auto;
-  transition: all 0.1s;
 }
 
 .main__contents-bottom-content-img:active {
-  width: 70px;
-  height: auto;
-  margin: 4px;
+  animation-name: contentSize;
+  animation-duration: 0.3s;
 }
 
 .main__contents-bottom-content-text {
@@ -117,3 +115,12 @@ body {
   margin-top: 4px;
 }
 
+@keyframes contentSize {
+  50% {
+    width:70px;
+    margin: 4px;
+  }
+  100% {
+    width:78px;
+  }
+}
